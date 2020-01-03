@@ -62,7 +62,7 @@ public class JMdbTools {
                 tool.exportSQL();
             }
 
-            if (cmd.hasOption("e")) {
+            if (cmd.hasOption("csv")) {
                 tool.exportCSV();
             }
 
